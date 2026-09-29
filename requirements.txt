@@ -1,0 +1,3 @@
+# Minimal dependencies - uses standard Android SDK platform-tools
+# Optional colorized CLI output
+rich>=13.0.0

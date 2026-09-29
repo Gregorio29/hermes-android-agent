@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Android Emulators, Disks & AVDs
+.android/
+avd/
+*.avd/
+*.ini
+*.qcow2
+*.img
+*.snapshot
+userdata*.img
+system.img
+
+# APK binaries & dumps
+*.apk
+*.aab
+debug/*.apk
+tests/apps/*.apk
+
+# Screenshots, XML hierarchy dumps, and logs
+screenshots/
+tests/missions/
+logs/
+backups/
+virtual/
+lab/
+*.png
+*.jpg
+*.xml
+*.log
+
+# Environments & IDEs
+.env
+.venv
+env/
+venv/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
