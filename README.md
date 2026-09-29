@@ -3,7 +3,7 @@
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Android](https://img.shields.io/badge/Android%20SDK-ADB%20%26%20UIAutomator-green.svg)](https://developer.android.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Tests](https://img.shields.io/badge/Tests-10%20Passed-green.svg)](#)
+[![Tests](https://img.shields.io/badge/Tests-8%20Passed%20%7C%202%20Skipped-green.svg)](#)
 
 A modular, secure, and production-grade Android device automation and inspection toolkit tailored for autonomous AI agents. Provides deep UI hierarchy dumping (XML to spatial objects), event injection, application lifecycle control, multi-device management (physical & virtual AVDs), and operational security policies.
 
@@ -97,6 +97,7 @@ agent.tap_element(target="Settings")
 ```bash
 python -m unittest discover -s tests -p "test_*.py"
 ```
+*Note on test suite:* Executes 10 test cases (8 unit tests covering models, registry, and security policies pass automatically; 2 hardware integration tests requiring a live Android device/emulator are cleanly skipped when no device is online).
 
 ---
 
