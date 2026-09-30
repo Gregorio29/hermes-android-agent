@@ -1,5 +1,7 @@
 # Hermes Android Agent Toolkit
 
+[English](README.md) | [Español](README.es.md)
+
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Android](https://img.shields.io/badge/Android%20SDK-ADB%20%26%20UIAutomator-green.svg)](https://developer.android.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
